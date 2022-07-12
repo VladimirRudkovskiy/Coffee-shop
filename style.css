@@ -50,5 +50,22 @@ body{
 	border-bottom: var(--border);
 	position: fixed;
 	top: 0; left: 0; right: 0;
-	z-index: 100;
+	z-index: 1000;
 }
+
+
+.header .logo img{
+	height: 6rem;
+}
+
+.header .navbar a{
+	margin: 0 1rem;
+	font-size: 1.6rem;
+	color: #fff;
+	}
+
+	.header .navbar a:hover{
+		color:var(--main-color);
+		border-bottom: .1rem solid var(--main-color);
+		padding-bottom: .5rem;
+	}
